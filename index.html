@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id='drum-machine'>
+        <div id='teclas'>
+            <div class='linha'>
+                <div class='drum-pad' id='1' onclick='executaToque("Q")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3' id='Q'>
+                    </audio>
+                    Q
+                </div>
+                <div class='drum-pad' id='2' onclick='executaToque("W")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3' id='W'>
+                    </audio>
+                    W
+                </div>
+                <div class='drum-pad' id='3' onclick='executaToque("E")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3' id='E'>
+                    </audio>
+                    E
+                </div>
+            </div>
+            <div class='linha'>
+                <div class='drum-pad' id='4' onclick='executaToque("A")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3' id='A'>
+                    </audio>
+                    A
+                </div>
+                <div class='drum-pad' id='5' onclick='executaToque("S")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3' id='S'>
+                    </audio>
+                    S
+                </div>
+                <div class='drum-pad' id='6' onclick='executaToque("D")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3' id='D'>
+                    </audio>
+                    D
+                </div>
+            </div>
+            <div class='linha'>
+                <div class='drum-pad' id='7' onclick='executaToque("Z")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3' id='Z'>
+                    </audio>
+                    Z
+                </div>
+                <div class='drum-pad' id='8' onclick='executaToque("X")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3' id='X'>
+                    </audio>
+                    X
+                </div>
+                <div class='drum-pad' id='9' onclick='executaToque("C")'>
+                    <audio class='clip' src='https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3' id='C'>
+                    </audio>
+                    C
+                </div>
+            </div>
+        </div>
+        <div id='controles'>
+            <p id='display'></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
